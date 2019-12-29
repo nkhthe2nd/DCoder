@@ -1,0 +1,11 @@
+1. Get number of students from user (N).
+
+2. Get largest number of groups (groups)  possible from
+   the number of students (N).
+
+   a. start by dividing (N) by the minimum number of
+      students per group (studentsPerGroup).
+   b. add 1 to (studentsPerGroup) until (studentsPerGroup)
+      is equal to (N).
+
+3. Print (groups)

@@ -6,7 +6,7 @@ void main(List<String> args) {
   var word = input.substring(0, 1);
   int num = 3;
   word = word + input.substring(1, 2);
-  word = word + num;
+  word = word + num.toString();
   print(word);
 
 }

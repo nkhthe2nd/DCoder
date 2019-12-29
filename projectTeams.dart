@@ -1,29 +1,49 @@
+/*
+Problem Statement
+  There are N students in a class, and the teacher wants
+  to divide these students into some groups. Teacher says
+  that groups of 2 or less are not allowed, so the teacher
+  wants to have as many groups of 3 or more as possible.
+  Divide the students so that the number of groups
+  consisting of 3 or more students is maximized.
+
+Input
+  Single integer N.
+
+Output
+  Maximum number of groups that can be formed.
+
+Constraints
+  1<=N<100000
+
+Sample Input
+  6
+
+Sample Output
+  2
+*/
+
 import 'dart:io';
 
 void main(List<String> args) {
 
-  var N = int.parse(stdin.readLineSync());
-  var a = 3;  // number of students per group
-  var g = 1;  // number of groups
+  // Number of students.
+  var N = num.parse(stdin.readLineSync());
 
-  while (a <= (N ~/ 2)) {
+  var studentsPerGroup = 3;  // Minimum number of students per group
+  var groups = 1.0;  // number of groups
 
-    if ((N % a) == 0) {
-      
-      if ((N ~/ a) > g) {
-        g = N ~/ a;
-      }
+  while (studentsPerGroup <= N) {
 
+    if ((N % studentsPerGroup) == 0) {
+      groups = N / studentsPerGroup;
+      break;
     }
 
-    a++;
+    studentsPerGroup++;
 
   } 
 
-  if (N == 0) {
-    print('0');
-  } else {
-    print(g);
-  }
+  print(groups.toInt());
 
 }
