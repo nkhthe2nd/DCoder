@@ -1,35 +1,23 @@
 Problem Statement
-Natural numbers are the set of positive integers, which ranges from 1 to infinity excluding fractional part. Natural numbers are whole numbers excluding zero. Zero is the only whole number which is not a natural number. An array is special if all the elements are natural numbers. Find whether the given array is special or not.
+Archie was given a homework by his teacher. He is given a fraction and he needs to write it in its reduced form. Archie is not good at Maths. Help Archie finish his homework.
 
 Input
-The first line of input contains a single integer N denoting the array size. The second line of input contains N-space separated integers denoting the array.
+2 integers separated by space denoting the numerator and denominator respectively.
 
 Output
-Print "Yes" if the array is special else print "No".
+Print the reduced form of the fraction
 
 Constraints
-1<=N<=100. 0<=Arrays elements<=100.
+1 ≤ N ≤ D ≤ 1000
 
 Sample Input
-4
-0 1 2 3
+20 40
 
 Sample Output
 
-No
+1 2
 
 
-1. Get number of elements (N) in the array.
+1. Get 2 numbers from user, numerator and denominator.
 
-2. Get numbers separated by a space.
-
-3. Put numbers into an array.
-
-4. Create boolean flag
-
-4. iterate over array and check if
-   a. number is greater than 0.
-
-5. if boolean flag is ever no, break the loop
-
-6. print yes if boolean flag is true, no if false.
+2. 
