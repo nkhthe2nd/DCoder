@@ -1,11 +1,35 @@
-1. Get number of students from user (N).
+Problem Statement
+Natural numbers are the set of positive integers, which ranges from 1 to infinity excluding fractional part. Natural numbers are whole numbers excluding zero. Zero is the only whole number which is not a natural number. An array is special if all the elements are natural numbers. Find whether the given array is special or not.
 
-2. Get largest number of groups (groups)  possible from
-   the number of students (N).
+Input
+The first line of input contains a single integer N denoting the array size. The second line of input contains N-space separated integers denoting the array.
 
-   a. start by dividing (N) by the minimum number of
-      students per group (studentsPerGroup).
-   b. add 1 to (studentsPerGroup) until (studentsPerGroup)
-      is equal to (N).
+Output
+Print "Yes" if the array is special else print "No".
 
-3. Print (groups)
+Constraints
+1<=N<=100. 0<=Arrays elements<=100.
+
+Sample Input
+4
+0 1 2 3
+
+Sample Output
+
+No
+
+
+1. Get number of elements (N) in the array.
+
+2. Get numbers separated by a space.
+
+3. Put numbers into an array.
+
+4. Create boolean flag
+
+4. iterate over array and check if
+   a. number is greater than 0.
+
+5. if boolean flag is ever no, break the loop
+
+6. print yes if boolean flag is true, no if false.
