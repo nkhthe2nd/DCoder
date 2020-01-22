@@ -1,23 +1,5 @@
-Problem Statement
-Archie was given a homework by his teacher. He is given a fraction and he needs to write it in its reduced form. Archie is not good at Maths. Help Archie finish his homework.
+SwapMaster
 
-Input
-2 integers separated by space denoting the numerator and denominator respectively.
-
-Output
-Print the reduced form of the fraction
-
-Constraints
-1 ≤ N ≤ D ≤ 1000
-
-Sample Input
-20 40
-
-Sample Output
-
-1 2
-
-
-1. Get 2 numbers from user, numerator and denominator.
-
-2. 
+The SwapMaster is known to be the greatest and fastest swapper of all time. You intend to bring
+him down and become the new SwapMaster of the city. Through some secret sources, you found out
+that the SwapMaster undertook yet another task from Doctor Symmetry. The task
