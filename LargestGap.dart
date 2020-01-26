@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  
+
   var N = int.parse(stdin.readLineSync());
   String input = stdin.readLineSync();
   int diff = 0;
@@ -17,7 +17,7 @@ void main(List<String> args) {
       }
       ++i;
     }
-  ++e;  
+  ++e;
   }
 
   print(diff);
