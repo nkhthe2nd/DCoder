@@ -1,12 +1,1 @@
 List <int> strArray = A.split(' ').map(int.parse).toList();
-
-Loop
-
-  i is 2
-  while 2 < 99
-    if 1 / 2 == 0
-      //
-    else
-      isPrime = true
-
-  ++i
